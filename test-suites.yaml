@@ -1,9 +1,6 @@
 version: "3"
 services:
-
   vendor-portal:
     image: subhodip1505/selenium
-    depends_on:
-    - chrome
     volumes:
     - ./output/vendor-portal:/home/DockerFramework/test-output
